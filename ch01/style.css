@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    background-color: black;
+}
+#first-sec{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#product{
+    height: 80%;
+    width: 23%;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+}
+#profile{
+    height: 80%;
+    width: 23%;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+}
