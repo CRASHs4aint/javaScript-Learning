@@ -4,7 +4,7 @@ for(let i=0;i<arr.length;i++){
     console.log(arr[i]);
 }
 // ques-02
-let brr=[23,45,67,89,100,45]
+let brr=[23,45,67,89,100,45];
 let count=0;
 for(let i=0;i<brr.length;i++){
 count=count+ brr[i];
@@ -12,8 +12,20 @@ count=count+ brr[i];
 let average=count/brr.length
 console.log(average)
 //ques-03
-let crr=[23,56,78,90,70]
+let crr=[23,56,78,90,70];
 for(let i=0;i<crr.length;i++){
     crr[i]=crr[i]-(crr[i]/10)
     console.log(crr[i])
 }
+//ques-04
+let drr=["Bloomberg","Microsoft","uber","google","IBM","Netflix"];
+
+drr.shift()
+console.log(drr)
+
+drr.splice(1,1,"ola")
+console.log(drr)
+
+
+drr.push("Amazon")
+console.log(drr)
