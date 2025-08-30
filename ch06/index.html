@@ -4,13 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ch-06</title>
+    <style>
+      body{
+        transition:background-color 0.3s,color 0.3s ;
+      }
+      body.light{
+        background-color: #fff;
+        color: #000;
+      }
+      body.dark {
+        background-color: #121212;
+        color: #fff;
+      }
+      button {
+        background-color: red;
+        color: #fff;
+        padding: 1vh 1vw;
+        border-radius: 10px;
+        border: none;
+        margin-top: 3vh;
+      }
+      button:hover{
+        background-color: rebeccapurple;
+      }
+      .para {
+        background-color: #d7d2cc;
+        color: #000;
+      }
+      .font {
+        font-size: 2rem;
+      }
+    </style>
   </head>
-  <body>
-    <h2 id="ques01">Hello javaScript</h2>
-    <div class="box" style="border: 1px solid black; height: 20vh; width: 20vw;"></div>
-    <div class="box" style="border: 1px solid black; height: 20vh; width: 20vw;"></div>
-    <div class="box" style="border: 1px solid black; height: 20vh; width: 20vw;"></div>
-     
+  <body class="light">
+    
+      <button id="togglebtn">Click Me</button>
+      <h2 id="ques01">Hello javaScript</h2>
+      <div
+        class="box"
+        style="border: 1px solid black; height: 20vh; width: 20vw"
+      ></div>
+      <div
+        class="box"
+        style="border: 1px solid black; height: 20vh; width: 20vw"
+      ></div>
+      <div
+        class="box"
+        style="border: 1px solid black; height: 20vh; width: 20vw"
+      ></div>
+      <p class="para" id="graphs">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo fugiat
+        eveniet, incidunt corporis magnam voluptates eligendi maiores commodi
+        eum, sapiente ipsam placeat libero voluptatibus est, ipsa sunt ad
+        assumenda aliquid.
+      </p>
+   
   </body>
   <script src="script.js"></script>
 </html>
